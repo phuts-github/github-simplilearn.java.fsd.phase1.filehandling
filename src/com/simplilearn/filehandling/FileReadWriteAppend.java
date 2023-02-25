@@ -10,8 +10,8 @@ public class FileReadWriteAppend {
 
 	public static void main(String[] args) throws IOException {
 
-//		String filePath = "/home/phuthinhotmail/eclipse-workspace/simplilearn-java-fsd-phase1-filehandling/";
-		String filePath = "C:/Users/phuth/git/simplilearn.java.fsd.phase1.filehandling/";
+		String filePath = "/home/phuthinhotmail/eclipse-workspace/simplilearn-java-fsd-phase1-filehandling/";
+//		String filePath = "C:/Users/phuth/git/simplilearn.java.fsd.phase1.filehandling/";
 		String fileName = "ReadWriteAppend.txt";
 		String filePathAndName = filePath+fileName;
 		File f1 = new File(filePathAndName);
